@@ -25,6 +25,8 @@ In your fork: **Code -> Codespaces -> New on main**
 1. ⚙️ Gear icon -> Command Pallete-> Codespaces : Manage user secret -> Add a new secret.
 2. Name OPENAI_API_KEY, paste your key, Save.
 
+**Note:** When you create a new codespace, the setup script will automatically create a `.env` file and configure your API keys from your codespace secrets. You can also add other secrets like `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_ENDPOINT`, or `HUGGING_FACE_API_KEY` and they will be automatically configured too.
+
 ### 3.  What’s next?
 
 | I want to…          | Go to…                                                                  |
